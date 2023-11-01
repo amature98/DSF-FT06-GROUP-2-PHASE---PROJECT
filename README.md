@@ -63,8 +63,31 @@ We perform exploratory data analysis (EDA) and feature engineering to enhance th
 
 In this chapter, we delve into data analysis and modeling, where we build and evaluate our multilinear regression model.
 
-### Chapter 6: Conclusion
+### Chapter 6: Recommendation
 
-We conclude our findings and discuss the limitations and future steps.
+Technical
 
-### Chapter 7: Appendix
+1. **Explore Ensemble Methods**: Consider using ensemble methods such as Random Forest or Gradient Boosting to capture complex relationships in the data and potentially improve the model's predictive accuracy.
+
+2. **Evaluate Nonlinear Relationships**: Explore the use of nonlinear algorithms like Support Vector Machines (SVM) or Neural Networks to capture intricate patterns and interactions among the features, allowing for more sophisticated modeling of the data.
+
+3. **Examine Regularized Models**: Investigate the performance of regularized models, including Ridge Regression and Lasso Regression, to further enhance the model's stability and generalizability while mitigating the impact of multicollinearity.
+
+4. **Assess Tree-Based Models**: Assess the suitability of decision tree-based models like XGBoost or LightGBM, which can handle complex feature interactions and deliver superior performance in handling large datasets.
+
+5. **Validate on Diverse Datasets**: Validate the model on diverse datasets to ensure its effectiveness across various real-world scenarios and to confirm its suitability for making accurate predictions in different market conditions.
+
+Non-technical
+
+1. **Emphasize Important Features**: Highlight the importance of living space, bedrooms, and bathrooms in property listings to attract potential buyers.
+
+2. **Stress Renovation Potential**: Promote the value of properties with recent renovations, as they tend to attract buyers looking for move-in-ready homes.
+
+3. **Consider Neighborhood View**: Highlight properties with appealing views to capture the interest of potential buyers who value scenic surroundings.
+
+4. **Educate on Basement Benefits**: Inform buyers about the advantages of properties with a basement, such as additional space for storage or living areas.
+
+5. **Market Waterfront Properties**: Showcase properties with a waterfront location, emphasizing the premium value associated with such desirable features.
+
+6. **Price Competitively**: Use the insights from the predictive model to set competitive prices for properties, considering the influence of various features on property prices.
+
