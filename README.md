@@ -40,10 +40,24 @@ We explore categorical variables like waterfront, view quality, and ZIP codes to
 ### Chapter 3: Data Cleaning
 
 In this chapter, we prepare the dataset for analysis and modeling by addressing duplicates and missing values.
+**Missing Values in Waterfront, View, and Yr_renovated Columns**
+
+We've identified missing values in the Waterfront, View (albeit relatively few), and Yr_renovated columns.
+
+**Addressing Missing Values:**
+Since both the Waterfront and View columns contain a substantial number of missing values, simply dropping them is not a viable solution. Instead, we propose a more data-driven approach. We'll group the data by zipcodes and replace the missing values with the mode (most common value) for each specific zipcode. This approach is grounded in the reasonable assumption that properties in the same zipcode share similar characteristics, particularly regarding waterfront and views.
+
+This data imputation strategy ensures that our dataset remains comprehensive and is based on a plausible assumption about the correlation between housing features and location.
 
 ### Chapter 4: EDA & Feature Engineering
 
-We perform exploratory data analysis (EDA) and feature engineering to enhance the model's predictive power.
+We perform exploratory data analysis (EDA) and feature engineering to enhance the model's predictive power:
+
+1. Exploratory data analysis (EDA) to understand the dataset.
+
+2. Feature selection and creation to enhance model performance.
+
+3. Data transformation for better model compatibility.
 
 ### Chapter 5: Data Analysis and Modeling
 
